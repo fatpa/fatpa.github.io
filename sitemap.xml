@@ -2,10 +2,18 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>http://localhost:1313/categories/</loc>
+    <loc>https://fatpa.me/</loc>
+    <lastmod>2024-12-14T01:09:26+08:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/</loc>
+    <loc>https://fatpa.me/posts/</loc>
+    <lastmod>2024-12-14T01:09:26+08:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/</loc>
+    <loc>https://fatpa.me/about/</loc>
+  </url><url>
+    <loc>https://fatpa.me/archives/</loc>
+  </url><url>
+    <loc>https://fatpa.me/categories/</loc>
+  </url><url>
+    <loc>https://fatpa.me/tags/</loc>
   </url>
 </urlset>
