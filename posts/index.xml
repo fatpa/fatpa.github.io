@@ -2,11 +2,18 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Posts on Fatpa&#39;s Log</title>
-    <link>https://fatpa.me/posts/</link>
+    <link>http://localhost:1313/posts/</link>
     <description>Recent content in Posts on Fatpa&#39;s Log</description>
-    <generator>Hugo -- 0.139.4</generator>
+    <generator>Hugo -- 0.150.0</generator>
     <language>en-us</language>
-    <lastBuildDate></lastBuildDate>
-    <atom:link href="https://fatpa.me/posts/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 14 Dec 2024 01:09:26 +0800</lastBuildDate>
+    <atom:link href="http://localhost:1313/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>2024 12 14 HelloWorld</title>
+      <link>http://localhost:1313/posts/2024-12-14-helloworld/</link>
+      <pubDate>Sat, 14 Dec 2024 01:09:26 +0800</pubDate>
+      <guid>http://localhost:1313/posts/2024-12-14-helloworld/</guid>
+      <description>&lt;p&gt;大约在冬天&lt;/p&gt;</description>
+    </item>
   </channel>
 </rss>

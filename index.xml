@@ -4,16 +4,17 @@
     <title>Fatpa&#39;s Log</title>
     <link>https://fatpa.me/</link>
     <description>Recent content on Fatpa&#39;s Log</description>
-    <generator>Hugo -- 0.139.4</generator>
+    <generator>Hugo -- 0.150.0</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 01 Jan 0001 00:00:00 +0000</lastBuildDate>
     <atom:link href="https://fatpa.me/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title></title>
       <link>https://fatpa.me/about/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://fatpa.me/about/</guid>
-      <description>&lt;p&gt;Wait for a moment&amp;hellip;&lt;/p&gt;</description>
+      <description>&lt;p&gt;I&amp;rsquo;m Fatpa (aka 蔡胖) is an experienced edge network and observability developer, previously with PCDN, specializing in Go and Python and currently learning Rust.&lt;/p&gt;
+&lt;p&gt;Now shifting focus toward AI-related research and development, and hope to become an AI Builder soon.&lt;/p&gt;
+&lt;p&gt;Feel free to exchange experiences and ideas related to research and development anytime. Touch me by &lt;a href=&#34;mailto:i@fatpa.me&#34;&gt;i@fatpa.me&lt;/a&gt;.&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>
