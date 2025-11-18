@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en" dir="auto">
+<html lang="zh-cn" dir="auto" data-theme="auto">
 
 <head>
 	<meta name="generator" content="Hugo 0.152.2"><meta charset="utf-8">
@@ -11,7 +11,7 @@
 <meta name="description" content="">
 <meta name="author" content="">
 <link rel="canonical" href="https://fatpa.me/">
-<link crossorigin="anonymous" href="/assets/css/stylesheet.08f7d74f0ada0f975d29ae436285b61ed7a719d05f350cb888d00341642995a2.css" integrity="sha256-CPfXTwraD5ddKa5DYoW2HtenGdBfNQy4iNADQWQplaI=" rel="preload stylesheet" as="style">
+<link crossorigin="anonymous" href="/assets/css/stylesheet.22f2cc5cb4fa8f4b56b0269f467e57bfab62ba61cb98c0cdde96bd7e08ab037e.css" integrity="sha256-IvLMXLT6j0tWsCafRn5Xv6tiumHLmMDN3pa9fgirA34=" rel="preload stylesheet" as="style">
 <link rel="icon" href="https://fatpa.me/favicon.ico">
 <link rel="icon" type="image/png" sizes="16x16" href="https://fatpa.me/favicon-16x16.png">
 <link rel="icon" type="image/png" sizes="32x32" href="https://fatpa.me/favicon-32x32.png">
@@ -19,9 +19,9 @@
 <link rel="mask-icon" href="https://fatpa.me/safari-pinned-tab.svg">
 <meta name="theme-color" content="#2e2e33">
 <meta name="msapplication-TileColor" content="#2e2e33">
-<link rel="alternate" type="application/rss+xml" href="https://fatpa.me/index.xml">
-<link rel="alternate" type="application/json" href="https://fatpa.me/index.json">
-<link rel="alternate" hreflang="en" href="https://fatpa.me/">
+<link rel="alternate" type="application/rss+xml" href="https://fatpa.me/index.xml" title="rss">
+<link rel="alternate" type="application/json" href="https://fatpa.me/index.json" title="json">
+<link rel="alternate" hreflang="zh-cn" href="https://fatpa.me/">
 <noscript>
     <style>
         #theme-toggle,
@@ -42,26 +42,41 @@
                 --code-block-bg: rgb(46, 46, 51);
                 --code-bg: rgb(55, 56, 62);
                 --border: rgb(51, 51, 51);
+                color-scheme: dark;
             }
 
             .list {
                 background: var(--theme);
             }
 
-            .list:not(.dark)::-webkit-scrollbar-track {
-                background: 0 0;
+            .toc {
+                background: var(--entry);
             }
+        }
 
-            .list:not(.dark)::-webkit-scrollbar-thumb {
-                border-color: var(--theme);
+        @media (prefers-color-scheme: light) {
+            .list::-webkit-scrollbar-thumb {
+                border-color: var(--code-bg);
             }
         }
 
     </style>
-</noscript><meta property="og:url" content="https://fatpa.me/">
+</noscript>
+<script>
+    if (localStorage.getItem("pref-theme") === "dark") {
+        document.querySelector("html").dataset.theme = 'dark';
+    } else if (localStorage.getItem("pref-theme") === "light") {
+       document.querySelector("html").dataset.theme = 'light';
+    } else if (window.matchMedia('(prefers-color-scheme: dark)').matches) {
+        document.querySelector("html").dataset.theme = 'dark';
+    } else {
+        document.querySelector("html").dataset.theme = 'light';
+    }
+
+</script><meta property="og:url" content="https://fatpa.me/">
   <meta property="og:site_name" content="Fatpa&#39;s Log">
   <meta property="og:title" content="Fatpa&#39;s Log">
-  <meta property="og:locale" content="en-us">
+  <meta property="og:locale" content="zh-cn">
   <meta property="og:type" content="website">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="Fatpa&#39;s Log">
@@ -76,25 +91,13 @@
   "description": "",
   "logo": "https://fatpa.me/favicon.ico",
   "sameAs": [
-      "https://github.com/fatpa", "https://x.com/fatpacai", "https://instagram.com/fatpa"
+      "https://github.com/fatpa", "https://x.com/fatpacai", "https://instagram.com/fatpa", "/index.xml"
   ]
 }
 </script>
 </head>
-
 <body class="list" id="top">
-<script>
-    if (localStorage.getItem("pref-theme") === "dark") {
-        document.body.classList.add('dark');
-    } else if (localStorage.getItem("pref-theme") === "light") {
-        document.body.classList.remove('dark')
-    } else if (window.matchMedia('(prefers-color-scheme: dark)').matches) {
-        document.body.classList.add('dark');
-    }
-
-</script>
-
-<header class="header">
+    <header class="header">
     <nav class="nav">
         <div class="logo">
             <a href="https://fatpa.me/" accesskey="h" title="Fatpa&#39;s Log (Alt + H)">Fatpa&#39;s Log</a>
@@ -138,11 +141,6 @@
                 </a>
             </li>
             <li>
-                <a href="https://fatpa.me/search/" title="Search (Alt &#43; /)" accesskey=/>
-                    <span>Search</span>
-                </a>
-            </li>
-            <li>
                 <a href="https://fatpa.me/about" title="About Me">
                     <span>About Me</span>
                 </a>
@@ -153,10 +151,10 @@
 <main class="main"> 
 <article class="first-entry home-info">
     <header class="entry-header">
-        <h1>Hi there 👋</h1>
+        <h1>Aloha 👋</h1>
     </header>
     <div class="entry-content">
-        I&rsquo;m Fatpa, and what do you want? Cookie or coffee?
+        Hi, this is Fatpa, and what do you want? Cookie or coffee?
     </div>
     <footer class="entry-footer">
         <div class="social-icons" >
@@ -186,6 +184,15 @@
     <line x1="17.5" y1="6.5" x2="17.5" y2="6.5"></line>
 </svg>
     </a>
+    <a href="/index.xml" target="_blank" rel="noopener noreferrer me"
+        title="RSS">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+    stroke-linecap="round" stroke-linejoin="round">
+    <path d="M4 11a9 9 0 0 1 9 9" />
+    <path d="M4 4a16 16 0 0 1 16 16" />
+    <circle cx="5" cy="19" r="1" />
+</svg>
+    </a>
 </div>
 
     </footer>
@@ -198,13 +205,9 @@
   </header>
   <div class="entry-content">
     <p>工作这么多年记忆最深刻的是，每次启动一个新项目总会需要投入大量的人力去筹划预研，输出产品文档，开无数个会评审需求，输出技术方案，再到最后的开发测试上线。耗时久不说，随时随地就会在中间被关闭，半途而废的项目数不胜数。而且作为一名只会写后端的工程师，有时候也很苦恼于一些小创意无法快速实现。但是自从 Vibe Coding 流行起来后，我发现这个事情似乎已经没有以前那么困难了，甚至是说，真的是到了「人人都是产品经理」的时代了。
-作为一个之前只用 copilot 代码提示的研发，最近闲着用 ClaudeCode Cli 对一个想法进行了简单的尝试，没想到越用越上瘾，从一开始的只是想做个 demo 体验下整个自动编码过程，到最后仅仅花了四个早上的时间，就把一个付费 App 全流程都实现跑通了，并基于 Cloudflare Pages 和 Zeabur 直接部署上线。很突然但也很兴奋，原来现在对想法进行 MVP 已经变得这么简单了。
-虽然说是叫 Vibe Coding，但实际体验下来这几个点还是绕不开的，如果没有，可能整个过程会更漫长：
-一丢丢的研发运维基础，不至于让自己连个本地环境都跑不起来，出个什么问题都需要去问 AI 排查； 配置好自己的 CLAUDE.md，不要安装好 cli 就开始吭哧吭哧干活，如果有时间最好把 agents 和 skills 都慢慢补齐优化； 一定一定要用好 Plan Mode，一上来不要就让 AI 去干活，而是想跟他沟通，交流你的想法，让它给输出个完整的技术方案，你 review 方案再提交改进意见，always human in the loop，像工作中的开会评审一样，最终大家都建立好共识，这时候再开始让它去编码； 要限制好你的项目规范，规矩要先立好，该用什么框架，该用什么目录结构去存放代码，什么模块要抽象统一，这些都是要在 CLAUDE.md 里配置好的，不要让它在整个编码过程放飞自己，要不然到最后你要自己动手调整代码都无从下手； 做好架构师的角色，把自己需要用到的 SaaS 服务或者框架组件都提前了解好，清楚知道每个组件的功能用途，在具体 vibe 过程告诉 AI 这些细节； 不要一口气让它去干一堆活，自己提前把功能想法抽象好，每次只让它专注地做一件事情，就把它当作一个中级研发看待，专心干好每个需求； 每完成一个需求时，都要亲身去体验每个功能细节，不能太过于相信 AI。 相信如果有这么些前置了解，Vibe Coding 起来会更加顺手的。
-最后，不得不夸夸现在的 SaaS 服务真的又细分又方便，皆是赛博活菩萨。这次一人研发的项目，就是基于 Supabase &#43; Cloudflare Pages &#43; Zeabur &#43; DeepSeek API 实现了前后端服务部署和数据库存储的能力，也引入了 DeepSeek LLM 进行了文本分析归类，全程没有敲过一行指令，打包构建部署都也完全模板化。所以更加笃定大家以后要验证一个产品的 MVP 会更加的简易方便了，短短几天时间就可以上线开始测试验证，再持续调整，根本不可能给老板们时间去犹豫。
 ...</p>
   </div>
-  <footer class="entry-footer"><span title='2025-11-18 20:00:00 +0800 CST'>November 18, 2025</span></footer>
+  <footer class="entry-footer"><span title='2025-11-18 20:00:00 +0800 CST'>November 18, 2025</span>&nbsp;·&nbsp;<span>3 min</span>&nbsp;·&nbsp;<span>1149 words</span></footer>
   <a class="entry-link" aria-label="post link to Vibe Coding 真的可以让产品快速 MVP" href="https://fatpa.me/posts/create-my-first-app-by-claudecode/"></a>
 </article>
     </main>
@@ -225,9 +228,14 @@
 </a>
 
 <script>
-    let menu = document.getElementById('menu')
+    let menu = document.getElementById('menu');
     if (menu) {
-        menu.scrollLeft = localStorage.getItem("menu-scroll-position");
+        
+        const scrollPosition = localStorage.getItem("menu-scroll-position");
+        if (scrollPosition) {
+            menu.scrollLeft = parseInt(scrollPosition, 10);
+        }
+        
         menu.onscroll = function () {
             localStorage.setItem("menu-scroll-position", menu.scrollLeft);
         }
@@ -268,11 +276,12 @@
 </script>
 <script>
     document.getElementById("theme-toggle").addEventListener("click", () => {
-        if (document.body.className.includes("dark")) {
-            document.body.classList.remove('dark');
+        const html = document.querySelector("html");
+        if (html.dataset.theme === "dark") {
+            html.dataset.theme = 'light';
             localStorage.setItem("pref-theme", 'light');
         } else {
-            document.body.classList.add('dark');
+            html.dataset.theme = 'dark';
             localStorage.setItem("pref-theme", 'dark');
         }
     })
