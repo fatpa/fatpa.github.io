@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
-    <title>Fatpa&#39;s Log</title>
-    <link>https://fatpa.me/</link>
-    <description>Recent content on Fatpa&#39;s Log</description>
+    <title>Technology on Fatpa&#39;s Log</title>
+    <link>https://fatpa.me/categories/technology/</link>
+    <description>Recent content in Technology on Fatpa&#39;s Log</description>
     <generator>Hugo -- 0.152.2</generator>
     <language>en-us</language>
     <lastBuildDate>Tue, 18 Nov 2025 20:00:00 +0800</lastBuildDate>
-    <atom:link href="https://fatpa.me/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://fatpa.me/categories/technology/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Vibe Coding 真的可以让产品快速 MVP</title>
       <link>https://fatpa.me/posts/create-my-first-app-by-claudecode/</link>
@@ -27,15 +27,6 @@
 &lt;/ol&gt;
 &lt;p&gt;相信如果有这么些前置了解，Vibe Coding 起来会更加顺手的。&lt;/p&gt;
 &lt;p&gt;最后，不得不夸夸现在的 SaaS 服务真的又细分又方便，皆是赛博活菩萨。这次一人研发的项目，就是基于 Supabase + Cloudflare Pages + &lt;a href=&#34;&#34;&gt;Zeabur&lt;/a&gt; + DeepSeek API 实现了前后端服务部署和数据库存储的能力，也引入了 DeepSeek LLM 进行了文本分析归类，全程没有敲过一行指令，打包构建部署都也完全模板化。所以更加笃定大家以后要验证一个产品的 MVP 会更加的简易方便了，短短几天时间就可以上线开始测试验证，再持续调整，根本不可能给老板们时间去犹豫。&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title></title>
-      <link>https://fatpa.me/about/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://fatpa.me/about/</guid>
-      <description>&lt;p&gt;I&amp;rsquo;m Fatpa (aka 蔡胖) is an experienced edge network and observability developer, previously work with PCDN (Peer-to-peer CDN), specializing in Go and Python and currently learning Rust.&lt;/p&gt;
-&lt;p&gt;Now shifting focus toward AI-related research and development, and hope to become an AI Builder soon.&lt;/p&gt;
-&lt;p&gt;Feel free to exchange experiences and ideas related to research and development anytime. Touch me by &lt;a href=&#34;mailto:i@fatpa.me&#34;&gt;i@fatpa.me&lt;/a&gt;.&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>

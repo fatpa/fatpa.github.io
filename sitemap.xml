@@ -2,16 +2,37 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>https://fatpa.me/categories/</loc>
+    <lastmod>2025-11-18T20:00:00+08:00</lastmod>
+  </url><url>
+    <loc>https://fatpa.me/tags/claudecode/</loc>
+    <lastmod>2025-11-18T20:00:00+08:00</lastmod>
+  </url><url>
+    <loc>https://fatpa.me/</loc>
+    <lastmod>2025-11-18T20:00:00+08:00</lastmod>
+  </url><url>
+    <loc>https://fatpa.me/posts/</loc>
+    <lastmod>2025-11-18T20:00:00+08:00</lastmod>
+  </url><url>
+    <loc>https://fatpa.me/tags/saas/</loc>
+    <lastmod>2025-11-18T20:00:00+08:00</lastmod>
+  </url><url>
+    <loc>https://fatpa.me/tags/</loc>
+    <lastmod>2025-11-18T20:00:00+08:00</lastmod>
+  </url><url>
+    <loc>https://fatpa.me/categories/technology/</loc>
+    <lastmod>2025-11-18T20:00:00+08:00</lastmod>
+  </url><url>
+    <loc>https://fatpa.me/tags/vibe-coding/</loc>
+    <lastmod>2025-11-18T20:00:00+08:00</lastmod>
+  </url><url>
+    <loc>https://fatpa.me/posts/create-my-first-app-by-claudecode/</loc>
+    <lastmod>2025-11-18T20:00:00+08:00</lastmod>
+  </url><url>
     <loc>https://fatpa.me/about/</loc>
   </url><url>
     <loc>https://fatpa.me/archives/</loc>
   </url><url>
-    <loc>https://fatpa.me/categories/</loc>
-  </url><url>
-    <loc>https://fatpa.me/</loc>
-  </url><url>
     <loc>https://fatpa.me/search/</loc>
-  </url><url>
-    <loc>https://fatpa.me/tags/</loc>
   </url>
 </urlset>

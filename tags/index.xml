@@ -4,8 +4,30 @@
     <title>Tags on Fatpa&#39;s Log</title>
     <link>https://fatpa.me/tags/</link>
     <description>Recent content in Tags on Fatpa&#39;s Log</description>
-    <generator>Hugo -- 0.150.0</generator>
+    <generator>Hugo -- 0.152.2</generator>
     <language>en-us</language>
+    <lastBuildDate>Tue, 18 Nov 2025 20:00:00 +0800</lastBuildDate>
     <atom:link href="https://fatpa.me/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Claudecode</title>
+      <link>https://fatpa.me/tags/claudecode/</link>
+      <pubDate>Tue, 18 Nov 2025 20:00:00 +0800</pubDate>
+      <guid>https://fatpa.me/tags/claudecode/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Saas</title>
+      <link>https://fatpa.me/tags/saas/</link>
+      <pubDate>Tue, 18 Nov 2025 20:00:00 +0800</pubDate>
+      <guid>https://fatpa.me/tags/saas/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Vibe Coding</title>
+      <link>https://fatpa.me/tags/vibe-coding/</link>
+      <pubDate>Tue, 18 Nov 2025 20:00:00 +0800</pubDate>
+      <guid>https://fatpa.me/tags/vibe-coding/</guid>
+      <description></description>
+    </item>
   </channel>
 </rss>
