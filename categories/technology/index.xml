@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Technology on Fatpa&#39;s Log</title>
-    <link>http://localhost:1313/categories/technology/</link>
+    <link>https://fatpa.me/categories/technology/</link>
     <description>Recent content in Technology on Fatpa&#39;s Log</description>
     <generator>Hugo -- 0.152.2</generator>
     <language>zh-cn</language>
     <lastBuildDate>Tue, 18 Nov 2025 20:00:00 +0800</lastBuildDate>
-    <atom:link href="http://localhost:1313/categories/technology/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://fatpa.me/categories/technology/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Vibe Coding 真的可以让产品快速 MVP</title>
-      <link>http://localhost:1313/posts/create-my-first-app-by-claudecode/</link>
+      <link>https://fatpa.me/posts/create-my-first-app-by-claudecode/</link>
       <pubDate>Tue, 18 Nov 2025 20:00:00 +0800</pubDate>
-      <guid>http://localhost:1313/posts/create-my-first-app-by-claudecode/</guid>
+      <guid>https://fatpa.me/posts/create-my-first-app-by-claudecode/</guid>
       <description>&lt;p&gt;工作这么多年记忆最深刻的是，每次启动一个新项目总会需要投入大量的人力去筹划预研，输出产品文档，开无数个会评审需求，输出技术方案，再到最后的开发测试上线。耗时久不说，随时随地就会在中间被关闭，半途而废的项目数不胜数。而且作为一名只会写后端的工程师，有时候也很苦恼于一些小创意无法快速实现。但是自从 Vibe Coding 流行起来后，我发现这个事情似乎已经没有以前那么困难了，甚至是说，真的是到了「人人都是产品经理」的时代了。&lt;/p&gt;</description>
     </item>
   </channel>
